@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACC2ABA423F321EC0025C332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC2ABA323F321EC0025C332 /* AppDelegate.swift */; };
+		ACC2ABA623F321EC0025C332 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC2ABA523F321EC0025C332 /* ContentView.swift */; };
+		ACC2ABA923F321EC0025C332 /* Gauge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACC2ABA723F321EC0025C332 /* Gauge.xcdatamodeld */; };
+		ACC2ABAB23F321ED0025C332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC2ABAA23F321ED0025C332 /* Assets.xcassets */; };
+		ACC2ABAE23F321ED0025C332 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC2ABAD23F321ED0025C332 /* Preview Assets.xcassets */; };
+		ACC2ABB123F321ED0025C332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC2ABAF23F321ED0025C332 /* Main.storyboard */; };
+		ACC2ABBD23F321ED0025C332 /* GaugeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC2ABBC23F321ED0025C332 /* GaugeTests.swift */; };
+		ACC2ABC823F321ED0025C332 /* GaugeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC2ABC723F321ED0025C332 /* GaugeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACC2ABB923F321ED0025C332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC2AB9823F321EC0025C332 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC2AB9F23F321EC0025C332;
+			remoteInfo = Gauge;
+		};
+		ACC2ABC423F321ED0025C332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC2AB9823F321EC0025C332 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC2AB9F23F321EC0025C332;
+			remoteInfo = Gauge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACC2ABA023F321EC0025C332 /* Gauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gauge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC2ABA323F321EC0025C332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACC2ABA523F321EC0025C332 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACC2ABA823F321EC0025C332 /* Gauge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gauge.xcdatamodel; sourceTree = "<group>"; };
+		ACC2ABAA23F321ED0025C332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC2ABAD23F321ED0025C332 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACC2ABB023F321ED0025C332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACC2ABB223F321ED0025C332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC2ABB323F321ED0025C332 /* Gauge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gauge.entitlements; sourceTree = "<group>"; };
+		ACC2ABB823F321ED0025C332 /* GaugeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaugeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC2ABBC23F321ED0025C332 /* GaugeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeTests.swift; sourceTree = "<group>"; };
+		ACC2ABBE23F321ED0025C332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC2ABC323F321ED0025C332 /* GaugeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaugeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC2ABC723F321ED0025C332 /* GaugeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeUITests.swift; sourceTree = "<group>"; };
+		ACC2ABC923F321ED0025C332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC2AB9D23F321EC0025C332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC2ABB523F321ED0025C332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC2ABC023F321ED0025C332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACC2AB9723F321EC0025C332 = {
+			isa = PBXGroup;
+			children = (
+				ACC2ABA223F321EC0025C332 /* Gauge */,
+				ACC2ABBB23F321ED0025C332 /* GaugeTests */,
+				ACC2ABC623F321ED0025C332 /* GaugeUITests */,
+				ACC2ABA123F321EC0025C332 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC2ABA123F321EC0025C332 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC2ABA023F321EC0025C332 /* Gauge.app */,
+				ACC2ABB823F321ED0025C332 /* GaugeTests.xctest */,
+				ACC2ABC323F321ED0025C332 /* GaugeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC2ABA223F321EC0025C332 /* Gauge */ = {
+			isa = PBXGroup;
+			children = (
+				ACC2ABA323F321EC0025C332 /* AppDelegate.swift */,
+				ACC2ABA523F321EC0025C332 /* ContentView.swift */,
+				ACC2ABAA23F321ED0025C332 /* Assets.xcassets */,
+				ACC2ABAF23F321ED0025C332 /* Main.storyboard */,
+				ACC2ABB223F321ED0025C332 /* Info.plist */,
+				ACC2ABB323F321ED0025C332 /* Gauge.entitlements */,
+				ACC2ABA723F321EC0025C332 /* Gauge.xcdatamodeld */,
+				ACC2ABAC23F321ED0025C332 /* Preview Content */,
+			);
+			path = Gauge;
+			sourceTree = "<group>";
+		};
+		ACC2ABAC23F321ED0025C332 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACC2ABAD23F321ED0025C332 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACC2ABBB23F321ED0025C332 /* GaugeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACC2ABBC23F321ED0025C332 /* GaugeTests.swift */,
+				ACC2ABBE23F321ED0025C332 /* Info.plist */,
+			);
+			path = GaugeTests;
+			sourceTree = "<group>";
+		};
+		ACC2ABC623F321ED0025C332 /* GaugeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACC2ABC723F321ED0025C332 /* GaugeUITests.swift */,
+				ACC2ABC923F321ED0025C332 /* Info.plist */,
+			);
+			path = GaugeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC2AB9F23F321EC0025C332 /* Gauge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC2ABCC23F321ED0025C332 /* Build configuration list for PBXNativeTarget "Gauge" */;
+			buildPhases = (
+				ACC2AB9C23F321EC0025C332 /* Sources */,
+				ACC2AB9D23F321EC0025C332 /* Frameworks */,
+				ACC2AB9E23F321EC0025C332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gauge;
+			productName = Gauge;
+			productReference = ACC2ABA023F321EC0025C332 /* Gauge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACC2ABB723F321ED0025C332 /* GaugeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC2ABCF23F321ED0025C332 /* Build configuration list for PBXNativeTarget "GaugeTests" */;
+			buildPhases = (
+				ACC2ABB423F321ED0025C332 /* Sources */,
+				ACC2ABB523F321ED0025C332 /* Frameworks */,
+				ACC2ABB623F321ED0025C332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC2ABBA23F321ED0025C332 /* PBXTargetDependency */,
+			);
+			name = GaugeTests;
+			productName = GaugeTests;
+			productReference = ACC2ABB823F321ED0025C332 /* GaugeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACC2ABC223F321ED0025C332 /* GaugeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC2ABD223F321ED0025C332 /* Build configuration list for PBXNativeTarget "GaugeUITests" */;
+			buildPhases = (
+				ACC2ABBF23F321ED0025C332 /* Sources */,
+				ACC2ABC023F321ED0025C332 /* Frameworks */,
+				ACC2ABC123F321ED0025C332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC2ABC523F321ED0025C332 /* PBXTargetDependency */,
+			);
+			name = GaugeUITests;
+			productName = GaugeUITests;
+			productReference = ACC2ABC323F321ED0025C332 /* GaugeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC2AB9823F321EC0025C332 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Arturo Rivas";
+				TargetAttributes = {
+					ACC2AB9F23F321EC0025C332 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					ACC2ABB723F321ED0025C332 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ACC2AB9F23F321EC0025C332;
+					};
+					ACC2ABC223F321ED0025C332 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ACC2AB9F23F321EC0025C332;
+					};
+				};
+			};
+			buildConfigurationList = ACC2AB9B23F321EC0025C332 /* Build configuration list for PBXProject "Gauge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC2AB9723F321EC0025C332;
+			productRefGroup = ACC2ABA123F321EC0025C332 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC2AB9F23F321EC0025C332 /* Gauge */,
+				ACC2ABB723F321ED0025C332 /* GaugeTests */,
+				ACC2ABC223F321ED0025C332 /* GaugeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC2AB9E23F321EC0025C332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC2ABB123F321ED0025C332 /* Main.storyboard in Resources */,
+				ACC2ABAE23F321ED0025C332 /* Preview Assets.xcassets in Resources */,
+				ACC2ABAB23F321ED0025C332 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC2ABB623F321ED0025C332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC2ABC123F321ED0025C332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC2AB9C23F321EC0025C332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC2ABA623F321EC0025C332 /* ContentView.swift in Sources */,
+				ACC2ABA423F321EC0025C332 /* AppDelegate.swift in Sources */,
+				ACC2ABA923F321EC0025C332 /* Gauge.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC2ABB423F321ED0025C332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC2ABBD23F321ED0025C332 /* GaugeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC2ABBF23F321ED0025C332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC2ABC823F321ED0025C332 /* GaugeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACC2ABBA23F321ED0025C332 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC2AB9F23F321EC0025C332 /* Gauge */;
+			targetProxy = ACC2ABB923F321ED0025C332 /* PBXContainerItemProxy */;
+		};
+		ACC2ABC523F321ED0025C332 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC2AB9F23F321EC0025C332 /* Gauge */;
+			targetProxy = ACC2ABC423F321ED0025C332 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACC2ABAF23F321ED0025C332 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC2ABB023F321ED0025C332 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC2ABCA23F321ED0025C332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC2ABCB23F321ED0025C332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ACC2ABCD23F321ED0025C332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gauge/Gauge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Gauge/Preview Content\"";
+				DEVELOPMENT_TEAM = HC72MH72C9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Gauge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturorivas.Gauge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ACC2ABCE23F321ED0025C332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gauge/Gauge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Gauge/Preview Content\"";
+				DEVELOPMENT_TEAM = HC72MH72C9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Gauge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturorivas.Gauge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ACC2ABD023F321ED0025C332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HC72MH72C9;
+				INFOPLIST_FILE = GaugeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturorivas.GaugeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gauge.app/Contents/MacOS/Gauge";
+			};
+			name = Debug;
+		};
+		ACC2ABD123F321ED0025C332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HC72MH72C9;
+				INFOPLIST_FILE = GaugeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturorivas.GaugeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gauge.app/Contents/MacOS/Gauge";
+			};
+			name = Release;
+		};
+		ACC2ABD323F321ED0025C332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HC72MH72C9;
+				INFOPLIST_FILE = GaugeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturorivas.GaugeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Gauge;
+			};
+			name = Debug;
+		};
+		ACC2ABD423F321ED0025C332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HC72MH72C9;
+				INFOPLIST_FILE = GaugeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturorivas.GaugeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Gauge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC2AB9B23F321EC0025C332 /* Build configuration list for PBXProject "Gauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC2ABCA23F321ED0025C332 /* Debug */,
+				ACC2ABCB23F321ED0025C332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC2ABCC23F321ED0025C332 /* Build configuration list for PBXNativeTarget "Gauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC2ABCD23F321ED0025C332 /* Debug */,
+				ACC2ABCE23F321ED0025C332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC2ABCF23F321ED0025C332 /* Build configuration list for PBXNativeTarget "GaugeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC2ABD023F321ED0025C332 /* Debug */,
+				ACC2ABD123F321ED0025C332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC2ABD223F321ED0025C332 /* Build configuration list for PBXNativeTarget "GaugeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC2ABD323F321ED0025C332 /* Debug */,
+				ACC2ABD423F321ED0025C332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACC2ABA723F321EC0025C332 /* Gauge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACC2ABA823F321EC0025C332 /* Gauge.xcdatamodel */,
+			);
+			currentVersion = ACC2ABA823F321EC0025C332 /* Gauge.xcdatamodel */;
+			path = Gauge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACC2AB9823F321EC0025C332 /* Project object */;
+}
